@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "praksis": "Practice",
+    "materialer": "Materials",
+    "partnere": "Partners",
+    "om": "About",
+    "kontakt": "Contact",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "hero": {
+    "eyebrow": "HAVS — Nordic timber & construction",
+    "headline": "Connecting timber manufacturers with the architects and contractors building Scandinavia.",
+    "subhead": "HAVS is a business development practice for the Nordic construction industry. Led by David Hav, working in CLT, glulam, and prefabricated timber systems.",
+    "cta_primary": "Arrange a meeting",
+    "cta_secondary": "How we work"
+  },
+  "triage": {
+    "heading": "Who do we work with?",
+    "manufacturers_title": "For manufacturers",
+    "manufacturers_body": "We open doors to the architects, contractors, and developers who specify your products. Long-term relationships, real pipelines, not lead lists.",
+    "architects_title": "For architects",
+    "architects_body": "A direct line to manufacturers of CLT, glulam, and timber components — with the technical and commercial context to make specification straightforward.",
+    "contractors_title": "For contractors & developers",
+    "contractors_body": "Access to the Nordic timber supply chain and the people behind it. Tender support, supplier introductions, project-stage advice."
+  },
+  "practice": {
+    "pullquote": "A construction industry built on timber is built on relationships.",
+    "body": "HAVS works in the space between product and project. We introduce timber manufacturers to architects who specify, contractors who build, and developers who commission. The result is fewer cold meetings, more qualified opportunities, and timber products that end up in the right buildings."
+  },
+  "partners": {
+    "heading": "Working with the Nordic timber industry.",
+    "body": "HAVS represents Södra, one of Sweden's largest timber manufacturers, alongside a selected network of suppliers across the Nordic region."
+  },
+  "process": {
+    "heading": "How David works",
+    "step1_title": "Introduction",
+    "step1_body": "A first conversation to understand your products, projects, or specification needs.",
+    "step2_title": "Network",
+    "step2_body": "Targeted introductions to architects, contractors, or manufacturers in the right context.",
+    "step3_title": "Meetings",
+    "step3_body": "Curated meetings with decision-makers — specifiers, project managers, procurement.",
+    "step4_title": "Pipeline",
+    "step4_body": "Continued involvement through tender, specification, and delivery."
+  },
+  "about_snippet": {
+    "heading": "David Hav",
+    "body": "David has spent his career in the Nordic timber and construction industry, building the kind of long-term relationships that move products from catalogue to specification. HAVS is the practice he runs from Denmark, working across Sweden, Denmark, and Norway.",
+    "cta": "More about David"
+  },
+  "contact_band": {
+    "heading": "Start a conversation.",
+    "body": "Most projects begin with a thirty-minute call. There is no template — the call is shaped by what you need.",
+    "cta_primary": "Arrange a meeting",
+    "email": "david@havs.dk"
+  },
+  "footer": {
+    "tagline": "Nordic timber & construction",
+    "email": "david@havs.dk",
+    "copyright": "© {year} HAVS. All rights reserved."
+  }
+}

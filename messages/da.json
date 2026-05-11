@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "praksis": "Praksis",
+    "materialer": "Materialer",
+    "partnere": "Partnere",
+    "om": "Om",
+    "kontakt": "Kontakt",
+    "menu": "Menu",
+    "close": "Luk"
+  },
+  "hero": {
+    "eyebrow": "HAVS — nordisk træ & byggeri",
+    "headline": "Vi forbinder træproducenter med de arkitekter og entreprenører, der bygger Skandinavien.",
+    "subhead": "HAVS er en forretningsudviklingspraksis for den nordiske byggebranche. Drevet af David Hav, med fokus på CLT, limtræ og præfabrikerede træsystemer.",
+    "cta_primary": "Book et møde",
+    "cta_secondary": "Sådan arbejder vi"
+  },
+  "triage": {
+    "heading": "Hvem arbejder vi med?",
+    "manufacturers_title": "Til producenter",
+    "manufacturers_body": "Vi åbner dørene til de arkitekter, entreprenører og bygherrer, der specificerer jeres produkter. Langvarige relationer, reelle pipelines — ikke leadlister.",
+    "architects_title": "Til arkitekter",
+    "architects_body": "En direkte linje til producenter af CLT, limtræ og trækomponenter — med den tekniske og kommercielle kontekst, der gør specifikation enkel.",
+    "contractors_title": "Til entreprenører & bygherrer",
+    "contractors_body": "Adgang til den nordiske trækæde og menneskene bag den. Udbudsstøtte, leverandørintroduktioner og rådgivning gennem projektfaserne."
+  },
+  "practice": {
+    "pullquote": "En byggebranche bygget af træ bygges på relationer.",
+    "body": "HAVS arbejder i feltet mellem produkt og projekt. Vi introducerer træproducenter til de arkitekter, der specificerer, de entreprenører, der bygger, og de bygherrer, der bestiller. Resultatet: færre kolde møder, flere kvalificerede muligheder — og træprodukter, der ender i de rigtige bygninger."
+  },
+  "partners": {
+    "heading": "I samarbejde med den nordiske træindustri.",
+    "body": "HAVS repræsenterer Södra, en af Sveriges største træproducenter, sammen med et udvalgt netværk af leverandører på tværs af Norden."
+  },
+  "process": {
+    "heading": "Sådan arbejder David",
+    "step1_title": "Introduktion",
+    "step1_body": "En første samtale for at forstå dine produkter, projekter eller specifikationsbehov.",
+    "step2_title": "Netværk",
+    "step2_body": "Målrettede introduktioner til arkitekter, entreprenører eller producenter i den rette kontekst.",
+    "step3_title": "Møder",
+    "step3_body": "Kuraterede møder med beslutningstagere — specifikatorer, projektledere, indkøb.",
+    "step4_title": "Pipeline",
+    "step4_body": "Fortsat involvering gennem udbud, specifikation og levering."
+  },
+  "about_snippet": {
+    "heading": "David Hav",
+    "body": "David har brugt sin karriere i den nordiske træ- og byggebranche på at opbygge den slags langvarige relationer, der flytter produkter fra katalog til specifikation. HAVS er den praksis, han driver fra Danmark, med arbejde på tværs af Sverige, Danmark og Norge.",
+    "cta": "Mere om David"
+  },
+  "contact_band": {
+    "heading": "Lad os tage en samtale.",
+    "body": "De fleste projekter starter med et opkald på en halv time. Der er ingen skabelon — samtalen formes af det, du har brug for.",
+    "cta_primary": "Book et møde",
+    "email": "david@havs.dk"
+  },
+  "footer": {
+    "tagline": "Nordisk træ & byggeri",
+    "email": "david@havs.dk",
+    "copyright": "© {year} HAVS. Alle rettigheder forbeholdes."
+  }
+}
