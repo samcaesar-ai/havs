@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { inter, fraunces } from "@/app/fonts";
 import "@/app/globals.css";
 
 export const metadata: Metadata = {
@@ -29,7 +30,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={`${inter.variable} ${fraunces.variable}`}>
       <body>
         <NextIntlClientProvider messages={messages}>
           {children}
