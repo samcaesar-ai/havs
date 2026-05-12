@@ -4,6 +4,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { inter, fraunces } from "@/app/fonts";
+import { Nav } from "@/components/nav";
+import { Footer } from "@/components/footer";
 import "@/app/globals.css";
 
 export const metadata: Metadata = {
@@ -33,7 +35,9 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang={locale} className={`${inter.variable} ${fraunces.variable}`}>
       <body>
         <NextIntlClientProvider messages={messages}>
+          <Nav />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
