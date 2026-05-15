@@ -54,6 +54,23 @@
     "cta_primary": "Book et møde",
     "email": "david@havs.dk"
   },
+  "contact_page": {
+    "heading": "Lad os tage en samtale.",
+    "email_label": "Email",
+    "label_name": "Navn",
+    "label_email": "Email",
+    "label_message": "Besked",
+    "label_role": "Jeg er",
+    "role_manufacturer": "Producent",
+    "role_architect": "Arkitekt",
+    "role_contractor": "Entreprenør / bygherre",
+    "role_other": "Andet",
+    "submit": "Send besked",
+    "submitting": "Sender...",
+    "success": "Tak — David vender tilbage hurtigst muligt.",
+    "error_required": "Udfyld venligst alle felter.",
+    "error_generic": "Der skete en fejl. Prøv igen eller skriv direkte til david@havs.dk."
+  },
   "footer": {
     "tagline": "Nordisk træ & byggeri",
     "email": "david@havs.dk",

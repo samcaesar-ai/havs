@@ -1,6 +1,13 @@
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
+import { Hero } from "@/components/hero";
+import { AudienceTriage } from "@/components/audience-triage";
+import { ProcessSteps } from "@/components/process-steps";
+import { MaterialsGrid } from "@/components/materials-grid";
+import { PartnersWall } from "@/components/partners-wall";
+import { AboutSnippet } from "@/components/about-snippet";
+import { ContactBand } from "@/components/contact-band";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -11,15 +18,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function HomePage() {
-  const t = useTranslations("hero");
-
   return (
     <main>
-      <section>
-        <p>{t("eyebrow")}</p>
-        <h1>{t("headline")}</h1>
-        <p>{t("subhead")}</p>
-      </section>
+      <Hero />
+      <AudienceTriage />
+      <ProcessSteps />
+      <MaterialsGrid />
+      <PartnersWall />
+      <AboutSnippet />
+      <ContactBand />
     </main>
   );
 }

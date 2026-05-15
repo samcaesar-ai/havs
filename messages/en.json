@@ -54,6 +54,23 @@
     "cta_primary": "Arrange a meeting",
     "email": "david@havs.dk"
   },
+  "contact_page": {
+    "heading": "Start a conversation.",
+    "email_label": "Email",
+    "label_name": "Name",
+    "label_email": "Email",
+    "label_message": "Message",
+    "label_role": "I am a",
+    "role_manufacturer": "Manufacturer",
+    "role_architect": "Architect",
+    "role_contractor": "Contractor / developer",
+    "role_other": "Other",
+    "submit": "Send message",
+    "submitting": "Sending...",
+    "success": "Thank you — David will be in touch shortly.",
+    "error_required": "Please fill in all fields.",
+    "error_generic": "Something went wrong. Try again or write directly to david@havs.dk."
+  },
   "footer": {
     "tagline": "Nordic timber & construction",
     "email": "david@havs.dk",
