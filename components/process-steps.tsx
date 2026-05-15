@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Section } from "./section";
+import { ScrollReveal } from "./scroll-reveal";
 
 export function ProcessSteps() {
   const t = useTranslations("process");
@@ -17,7 +18,7 @@ export function ProcessSteps() {
         <div className="lg:col-span-1">
           <h2 className="text-headline lg:sticky lg:top-32">{t("heading")}</h2>
         </div>
-        <div className="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
+        <ScrollReveal variant="group" className="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
           {steps.map((step) => (
             <div key={step.id} className="flex flex-col gap-4">
               <span className="font-display text-4xl text-birch leading-none">
@@ -31,7 +32,7 @@ export function ProcessSteps() {
               </p>
             </div>
           ))}
-        </div>
+        </ScrollReveal>
       </div>
     </Section>
   );

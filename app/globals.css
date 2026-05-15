@@ -106,4 +106,49 @@
   .section {
     padding-block: var(--spacing-section);
   }
+
+  /* Scroll-reveal — set on elements, JS toggles .is-visible */
+  .reveal {
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Stagger children inside a reveal group */
+  .reveal-group > * {
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .reveal-group.is-visible > *:nth-child(1) { opacity: 1; transform: none; transition-delay: 0ms; }
+  .reveal-group.is-visible > *:nth-child(2) { opacity: 1; transform: none; transition-delay: 80ms; }
+  .reveal-group.is-visible > *:nth-child(3) { opacity: 1; transform: none; transition-delay: 160ms; }
+  .reveal-group.is-visible > *:nth-child(4) { opacity: 1; transform: none; transition-delay: 240ms; }
+
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .reveal,
+    .reveal-group > * {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+}
+
+@media print {
+  /* Hide chrome, show only content */
+  header, footer, nav, [data-print-hide] { display: none !important; }
+  body { padding-top: 0; background: white; color: black; }
+  .section { padding-block: 1.5rem; }
+  a[href]::after { content: " (" attr(href) ")"; font-size: 0.75rem; color: #555; }
+  a[href^="mailto"]::after { content: none; }
 }

@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Section } from "./section";
+import { ScrollReveal } from "./scroll-reveal";
 
 export function AudienceTriage() {
   const t = useTranslations("triage");
@@ -12,8 +13,8 @@ export function AudienceTriage() {
 
   return (
     <Section className="bg-birch/20">
-      <h2 className="text-headline mb-12">{t("heading")}</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-birch border border-birch">
+      <ScrollReveal><h2 className="text-headline mb-12">{t("heading")}</h2></ScrollReveal>
+      <ScrollReveal variant="group" className="grid grid-cols-1 md:grid-cols-3 gap-px bg-birch border border-birch">
         {segments.map((segment) => (
           <div
             key={segment.key}
@@ -27,7 +28,7 @@ export function AudienceTriage() {
             </p>
           </div>
         ))}
-      </div>
+      </ScrollReveal>
     </Section>
   );
 }

@@ -7,6 +7,7 @@ import { getPathname } from "@/i18n/navigation";
 import { inter, fraunces } from "@/app/fonts";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { MobileEmailChip } from "@/components/mobile-email-chip";
 import "@/app/globals.css";
 
 const BASE_URL = "https://havs.dk";
@@ -85,6 +86,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <Nav />
           {children}
           <Footer />
+          <MobileEmailChip />
         </NextIntlClientProvider>
       </body>
     </html>
