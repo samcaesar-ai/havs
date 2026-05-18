@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Materials — HAVS</title>
+  <meta name="description" content="HAVS works with CLT, glulam, and prefabricated timber systems — the structural materials that define modern Nordic construction.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .material-deep-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2rem, 5vw, 5rem);
+      padding-block: var(--sect);
+      align-items: start;
+      border-bottom: 1px solid var(--birch);
+    }
+    .material-deep-grid:last-child { border-bottom: none; }
+    .material-deep-grid.reverse { direction: rtl; }
+    .material-deep-grid.reverse > * { direction: ltr; }
+    .material-deep-fig {
+      position: relative;
+      border-radius: var(--r-md);
+      overflow: hidden;
+    }
+    .material-deep-fig svg { width: 100%; height: 100%; display: block; }
+    .material-deep-body .eyebrow { margin-bottom: 1rem; }
+    .material-deep-body h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 400;
+      line-height: 1.08;
+      margin-bottom: 1.25rem;
+    }
+    .material-deep-body p {
+      font-size: 1rem;
+      color: var(--stone);
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+    .spec-table { width: 100%; border-collapse: collapse; margin-top: 1.5rem; }
+    .spec-table tr { border-bottom: 1px solid var(--birch); }
+    .spec-table th {
+      font-family: var(--font-mono);
+      font-size: 0.5625rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--stone);
+      text-align: left;
+      padding: 0.625rem 0;
+      font-weight: 400;
+    }
+    .spec-table td {
+      font-size: var(--sz-small);
+      color: var(--ink);
+      padding: 0.75rem 0;
+      vertical-align: top;
+    }
+    .spec-table td:first-child { color: var(--stone); width: 40%; }
+    @media (max-width: 767px) {
+      .material-deep-grid { grid-template-columns: 1fr; }
+      .material-deep-grid.reverse { direction: ltr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner container">
+      <a class="nav-logo" href="index.html">HAVS</a>
+      <ul class="nav-links" role="list">
+        <li><a href="praksis.html">Practice</a></li>
+        <li><a href="materialer.html" aria-current="page">Materials</a></li>
+        <li><a href="partnere.html">Partners</a></li>
+        <li><a href="om.html">About</a></li>
+      </ul>
+      <a class="nav-cta" href="kontakt.html">Contact</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <svg width="22" height="16" viewBox="0 0 22 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+          <line x1="0" y1="2" x2="22" y2="2"/><line x1="0" y1="9" x2="22" y2="9"/><line x1="0" y1="16" x2="22" y2="16"/>
+        </svg>
+      </button>
+    </div>
+    <div class="nav-drawer" aria-hidden="true">
+      <button class="nav-close" aria-label="Close menu">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+          <line x1="1" y1="1" x2="21" y2="21"/><line x1="21" y1="1" x2="1" y2="21"/>
+        </svg>
+      </button>
+      <nav>
+        <a href="praksis.html">Practice</a>
+        <a href="materialer.html">Materials</a>
+        <a href="partnere.html">Partners</a>
+        <a href="om.html">About</a>
+        <a href="kontakt.html">Contact →</a>
+      </nav>
+    </div>
+  </nav>
+
+  <main>
+
+    <header class="page-header">
+      <div class="container">
+        <p class="eyebrow reveal">Materials</p>
+        <h1 class="display reveal" style="margin-top: 1rem;">The materials.</h1>
+        <p class="body-lead reveal">
+          HAVS works with the structural timber products that define modern Nordic construction — CLT, glulam, and prefabricated systems from Scandinavian producers.
+        </p>
+      </div>
+    </header>
+
+    <div class="container">
+
+      <!-- CLT -->
+      <div class="material-deep-grid">
+        <figure class="material-deep-fig reveal" aria-label="CLT panel cross-section detail" style="aspect-ratio: 1;">
+          <svg viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="gm-clt">
+                <feTurbulence type="fractalNoise" baseFrequency="0.012 0.92" numOctaves="6" seed="3" result="n"/>
+                <feColorMatrix in="n" type="matrix" values="0.20 0 0 0 0.48 0.16 0 0 0 0.34 0.08 0 0 0 0.16 0 0 0 0.75 0"/>
+              </filter>
+            </defs>
+            <rect width="600" height="600" fill="#ba9462"/>
+            <rect width="600" height="600" filter="url(#gm-clt)"/>
+            <line x1="0" y1="120" x2="600" y2="120" stroke="rgba(25,12,0,0.20)" stroke-width="2"/>
+            <line x1="0" y1="240" x2="600" y2="240" stroke="rgba(25,12,0,0.20)" stroke-width="2"/>
+            <line x1="0" y1="360" x2="600" y2="360" stroke="rgba(25,12,0,0.20)" stroke-width="2"/>
+            <line x1="0" y1="480" x2="600" y2="480" stroke="rgba(25,12,0,0.20)" stroke-width="2"/>
+            <text x="50%" y="97%" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="rgba(247,244,238,0.40)" letter-spacing="2">CLT — CROSS SECTION</text>
+          </svg>
+        </figure>
+        <div class="material-deep-body">
+          <p class="eyebrow reveal">Structural</p>
+          <h2 class="reveal">Cross-Laminated<br>Timber</h2>
+          <p class="reveal">CLT is the defining material of contemporary mass timber construction — solid panels built from alternating layers of structural-grade timber, with the grain running perpendicular in each layer.</p>
+          <p class="reveal">The result is a rigid, stable panel with excellent load-bearing capacity in two directions. CLT panels are used for floors, walls, and roofs in residential, commercial, and public buildings across Scandinavia.</p>
+          <table class="spec-table reveal">
+            <thead>
+              <tr><th>Specification</th><th>Range</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Layers</td><td>3, 5, 7, or 9 — odd number, symmetric</td></tr>
+              <tr><td>Panel thickness</td><td>60–500 mm depending on layer count</td></tr>
+              <tr><td>Standard widths</td><td>600–3000 mm</td></tr>
+              <tr><td>Species</td><td>Norway spruce (primary); Scots pine, Douglas fir</td></tr>
+              <tr><td>Strength class</td><td>C24, C16 — EN 338</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Glulam -->
+      <div class="material-deep-grid reverse">
+        <figure class="material-deep-fig reveal" aria-label="Glulam beam detail" style="aspect-ratio: 1;">
+          <svg viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="gm-glulam">
+                <feTurbulence type="fractalNoise" baseFrequency="0.008 0.96" numOctaves="5" seed="9" result="n"/>
+                <feColorMatrix in="n" type="matrix" values="0.23 0 0 0 0.54 0.18 0 0 0 0.39 0.09 0 0 0 0.19 0 0 0 0.72 0"/>
+              </filter>
+            </defs>
+            <rect width="600" height="600" fill="#caa870"/>
+            <rect width="600" height="600" filter="url(#gm-glulam)"/>
+            <line x1="0" y1="75" x2="600" y2="75" stroke="rgba(20,10,0,0.14)" stroke-width="1.5"/>
+            <line x1="0" y1="150" x2="600" y2="150" stroke="rgba(20,10,0,0.14)" stroke-width="1.5"/>
+            <line x1="0" y1="225" x2="600" y2="225" stroke="rgba(20,10,0,0.14)" stroke-width="1.5"/>
+            <line x1="0" y1="300" x2="600" y2="300" stroke="rgba(20,10,0,0.14)" stroke-width="1.5"/>
+            <line x1="0" y1="375" x2="600" y2="375" stroke="rgba(20,10,0,0.14)" stroke-width="1.5"/>
+            <line x1="0" y1="450" x2="600" y2="450" stroke="rgba(20,10,0,0.14)" stroke-width="1.5"/>
+            <line x1="0" y1="525" x2="600" y2="525" stroke="rgba(20,10,0,0.14)" stroke-width="1.5"/>
+            <text x="50%" y="97%" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="rgba(247,244,238,0.40)" letter-spacing="2">GLULAM — LONGITUDINAL</text>
+          </svg>
+        </figure>
+        <div class="material-deep-body">
+          <p class="eyebrow reveal">Structural</p>
+          <h2 class="reveal">Glued Laminated<br>Timber</h2>
+          <p class="reveal">Glulam is the workhorse of Nordic timber structures — engineered beams built from horizontal layers of structural timber bonded with structural adhesive, producing members of exceptional strength and dimensional precision.</p>
+          <p class="reveal">Glulam beams can be produced straight or curved, at sizes that far exceed what is possible in solid timber, and with consistent, predictable structural performance. They are used in everything from residential roofs to large-span public buildings.</p>
+          <table class="spec-table reveal">
+            <thead>
+              <tr><th>Specification</th><th>Range</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Strength class</td><td>GL 24h, GL 28h, GL 32h — EN 14080</td></tr>
+              <tr><td>Cross-sections</td><td>Custom — up to 1800 mm depth</td></tr>
+              <tr><td>Length</td><td>Up to 30 m standard; longer by arrangement</td></tr>
+              <tr><td>Species</td><td>Norway spruce primary; Nordic pine, larch</td></tr>
+              <tr><td>Surface</td><td>Industrial, structural, or architectural finish</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Prefab -->
+      <div class="material-deep-grid">
+        <figure class="material-deep-fig reveal" aria-label="Prefabricated timber element" style="aspect-ratio: 1;">
+          <svg viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="gm-pf">
+                <feTurbulence type="fractalNoise" baseFrequency="0.015 0.80" numOctaves="4" seed="23" result="n"/>
+                <feColorMatrix in="n" type="matrix" values="0.17 0 0 0 0.42 0.13 0 0 0 0.30 0.07 0 0 0 0.14 0 0 0 0.68 0"/>
+              </filter>
+            </defs>
+            <rect width="600" height="600" fill="#aa8858"/>
+            <rect width="600" height="600" filter="url(#gm-pf)"/>
+            <line x1="200" y1="0" x2="200" y2="600" stroke="rgba(20,10,0,0.10)" stroke-width="1.5"/>
+            <line x1="400" y1="0" x2="400" y2="600" stroke="rgba(20,10,0,0.10)" stroke-width="1.5"/>
+            <line x1="0" y1="150" x2="600" y2="150" stroke="rgba(20,10,0,0.10)" stroke-width="1.5"/>
+            <line x1="0" y1="300" x2="600" y2="300" stroke="rgba(20,10,0,0.10)" stroke-width="1.5"/>
+            <line x1="0" y1="450" x2="600" y2="450" stroke="rgba(20,10,0,0.10)" stroke-width="1.5"/>
+            <text x="50%" y="97%" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="rgba(247,244,238,0.40)" letter-spacing="2">PREFAB — ELEMENT PLAN</text>
+          </svg>
+        </figure>
+        <div class="material-deep-body">
+          <p class="eyebrow reveal">Prefabricated</p>
+          <h2 class="reveal">Prefabricated<br>Timber Systems</h2>
+          <p class="reveal">Prefabricated timber elements — wall panels, floor cassettes, and roof elements — are manufactured to precise tolerances in a controlled factory environment, then delivered to site ready for immediate assembly.</p>
+          <p class="reveal">The advantages over site-built systems are measurable: reduced on-site labour, faster build programmes, better quality control, and significantly lower construction waste. For CLT-frame or hybrid structures, prefabrication is increasingly the default approach.</p>
+          <table class="spec-table reveal">
+            <thead>
+              <tr><th>System type</th><th>Application</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Wall panels</td><td>Load-bearing or non-structural; insulated, pre-clad</td></tr>
+              <tr><td>Floor cassettes</td><td>Timber-frame deck; span up to 8 m standard</td></tr>
+              <tr><td>Roof elements</td><td>Flat and pitched; integrated waterproofing available</td></tr>
+              <tr><td>Hybrid systems</td><td>Timber + steel or concrete combined elements</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div><!-- /container -->
+
+    <!-- CONTACT BAND -->
+    <section class="contact-band">
+      <div class="container">
+        <p class="eyebrow">Specify with confidence</p>
+        <h2 class="headline">Need the right product for your project?</h2>
+        <p>David can connect you directly with CLT, glulam, and prefab producers across Scandinavia — with the technical context to make the introduction worthwhile.</p>
+        <a href="kontakt.html" class="btn btn-primary">Talk to David</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <a class="footer-logo" href="index.html">HAVS</a>
+          <p class="footer-tagline">Nordic timber &amp; construction</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="praksis.html">Practice</a>
+          <a href="materialer.html">Materials</a>
+          <a href="partnere.html">Partners</a>
+          <a href="om.html">About</a>
+          <a href="kontakt.html">Contact</a>
+        </nav>
+        <div class="footer-contact">
+          <a href="mailto:david@havs.dk">david@havs.dk</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 HAVS</span>
+        <span>København, DK</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
