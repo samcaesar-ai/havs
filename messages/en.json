@@ -10,7 +10,8 @@
   },
   "hero": {
     "eyebrow": "HAVS — Nordic timber & construction",
-    "headline": "Connecting timber manufacturers with the architects and contractors building Scandinavia.",
+    "headline_line1": "Connecting timber manufacturers",
+    "headline_line2": "with those building Scandinavia.",
     "subhead": "HAVS is a business development practice for the Nordic construction industry. Led by David Hav, working in CLT, glulam, and prefabricated timber systems.",
     "cta_primary": "Arrange a meeting",
     "cta_secondary": "How we work"

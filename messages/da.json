@@ -10,7 +10,8 @@
   },
   "hero": {
     "eyebrow": "HAVS — nordisk træ & byggeri",
-    "headline": "Vi forbinder træproducenter med de arkitekter og entreprenører, der bygger Skandinavien.",
+    "headline_line1": "Vi forbinder træproducenter",
+    "headline_line2": "med dem der bygger Skandinavien.",
     "subhead": "HAVS er en forretningsudviklingspraksis for den nordiske byggebranche. Drevet af David Hav, med fokus på CLT, limtræ og præfabrikerede træsystemer.",
     "cta_primary": "Book et møde",
     "cta_secondary": "Sådan arbejder vi"

@@ -1,4 +1,4 @@
-import { Fraunces, Inter } from "next/font/google";
+import { Cormorant_Garamond, Inter } from "next/font/google";
 
 export const inter = Inter({
   subsets: ["latin"],
@@ -6,8 +6,10 @@ export const inter = Inter({
   variable: "--font-inter",
 });
 
-export const fraunces = Fraunces({
+export const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-fraunces",
+  weight: ["300", "400", "600"],
+  style: ["normal", "italic"],
+  variable: "--font-cormorant",
 });

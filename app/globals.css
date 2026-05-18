@@ -4,14 +4,18 @@
   /* Brand palette — generates bg-*, text-*, border-* utilities */
   --color-paper: #f7f4ee;
   --color-ink: #101418;
-  --color-blue: #1b3a57;
   --color-orange: #d9531e;
-  --color-stone: #a89f92;
-  --color-birch: #e8e2d6;
+  --color-stone: #7a7168;
+  --color-birch: #e3ddd2;
+  --color-forest: #2c4a2e;
+  --color-forest-l: #3d6640;
+  --color-nav-bg: #131d12;
+  --color-nav-fg: #f3f0e8;
 
   /* Fonts */
   --font-sans: var(--font-inter);
-  --font-display: var(--font-fraunces);
+  --font-display: var(--font-cormorant);
+  --font-mono: ui-monospace, 'JetBrains Mono', Menlo, monospace;
 
   /* Fluid display sizes (supplements Tailwind's default scale) */
   --text-display: clamp(3rem, 7vw, 5.5rem);
@@ -19,10 +23,12 @@
   --text-title: clamp(1.25rem, 2vw, 1.75rem);
 
   /* Layout */
-  --nav-height: 4rem;
+  --nav-height: 4.5rem;
   --spacing-section: clamp(4rem, 10vw, 8rem);
   --spacing-gutter: clamp(1rem, 4vw, 1.5rem);
   --width-content: 72rem;
+  --radius-sm: 2px;
+  --radius-md: 4px;
 }
 
 @layer base {
@@ -72,28 +78,65 @@
   }
 
   ::selection {
-    background-color: var(--color-blue);
+    background-color: var(--color-forest);
     color: var(--color-paper);
   }
 }
 
 @layer components {
   .eyebrow {
-    font-family: var(--font-sans);
+    font-family: var(--font-mono);
     font-size: 0.6875rem;
     font-weight: 500;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.13em;
     text-transform: uppercase;
-    color: var(--color-stone);
+    color: var(--color-forest);
   }
 
   .pullquote {
+    border-left: 2px solid var(--color-orange);
+    padding-left: 1.5rem;
     font-family: var(--font-display);
     font-size: var(--text-title);
     font-weight: 300;
     font-style: italic;
     line-height: 1.35;
-    color: var(--color-blue);
+    color: var(--color-ink);
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-orange);
+    background-color: var(--color-orange);
+    color: #fff;
+    transition: background-color 0.15s, border-color 0.15s;
+  }
+
+  .btn-primary:hover {
+    background-color: #b8431a;
+    border-color: #b8431a;
+  }
+
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-birch);
+    background-color: transparent;
+    color: var(--color-ink);
+    transition: background-color 0.15s, border-color 0.15s;
+  }
+
+  .btn-outline:hover {
+    background-color: var(--color-birch);
   }
 
   .container {

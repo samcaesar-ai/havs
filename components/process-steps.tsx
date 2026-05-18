@@ -13,15 +13,15 @@ export function ProcessSteps() {
   ];
 
   return (
-    <Section>
+    <Section style={{ backgroundColor: "#f2ede4" }}>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
         <div className="lg:col-span-1">
           <h2 className="text-headline lg:sticky lg:top-32">{t("heading")}</h2>
         </div>
-        <ScrollReveal variant="group" className="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
+        <ScrollReveal variant="group" className="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-0">
           {steps.map((step) => (
-            <div key={step.id} className="flex flex-col gap-4">
-              <span className="font-display text-4xl text-birch leading-none">
+            <div key={step.id} className="flex flex-col gap-4 pt-6 border-t-2 border-birch">
+              <span className="text-sm text-orange leading-none" style={{ fontFamily: "var(--font-mono)" }}>
                 {step.number}
               </span>
               <h3 className="font-display text-2xl tracking-tight">

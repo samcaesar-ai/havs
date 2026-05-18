@@ -6,9 +6,9 @@ export function AudienceTriage() {
   const t = useTranslations("triage");
 
   const segments = [
-    { key: "manufacturers", color: "bg-blue/5" },
-    { key: "architects", color: "bg-orange/5" },
-    { key: "contractors", color: "bg-stone/10" },
+    { key: "manufacturers", color: "bg-paper" },
+    { key: "architects", color: "bg-paper" },
+    { key: "contractors", color: "bg-paper" },
   ] as const;
 
   return (

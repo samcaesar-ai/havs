@@ -4,7 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { getPathname } from "@/i18n/navigation";
-import { inter, fraunces } from "@/app/fonts";
+import { inter, cormorant } from "@/app/fonts";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { MobileEmailChip } from "@/components/mobile-email-chip";
@@ -80,7 +80,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${inter.variable} ${fraunces.variable}`}>
+    <html lang={locale} className={`${inter.variable} ${cormorant.variable}`}>
       <body>
         <NextIntlClientProvider messages={messages}>
           <Nav />
