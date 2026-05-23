@@ -31,12 +31,12 @@ export default function PraksisPage() {
       <Section className="bg-birch/10">
          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div className="flex flex-col gap-6">
-                <h2 className="text-headline">Færre kolde møder.</h2>
-                <p className="text-stone">Vi åbner døre baseret på teknisk relevans og gensidig værdi, ikke bare volumen.</p>
+                <h2 className="text-headline">Kortere vej fra produkt til specifikation.</h2>
+                <p className="text-stone">Vi åbner døre baseret på teknisk relevans og gensidigværdi — uanset om produktet er træ, tag, cement eller en anden miljøvenlig løsning.</p>
             </div>
             <div className="flex flex-col gap-6">
-                <h2 className="text-headline">Flere rigtige bygninger.</h2>
-                <p className="text-stone">Vores mål er at se træprodukter implementeret i projekter, hvor de gør den største forskel.</p>
+                <h2 className="text-headline">Bæredygtige materialer i de rigtige projekter.</h2>
+                <p className="text-stone">Vores mål er at se miljøvenlige produkter specificeret og bygget ind i projekter, hvor de gør den største forskel for klimaet.</p>
             </div>
          </div>
       </Section>

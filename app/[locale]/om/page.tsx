@@ -26,7 +26,7 @@ export default function OmPage() {
                 </p>
                 <div className="prose prose-stone">
                     <p className="text-stone">
-                        David har brugt sin karriere på at bygge bro mellem de mennesker, der designer vores byer, og de mennesker, der leverer materialerne til dem. Med en dyb forståelse for både det arkitektoniske udtryk og de kommercielle realiteter i byggeriet, er HAVS skabt for at accelerere brugen af træ i Skandinavien.
+                        David har brugt sin karriere på at bygge bro mellem de mennesker, der designer vores byer, og de mennesker, der leverer de materialer, der opfører dem. Med en dyb forståelse for både det arkitektoniske udtryk og de kommercielle realiteter i byggeriet er HAVS skabt for at accelerere brugen af miljøvenlige byggematerialer i Skandinavien.
                     </p>
                 </div>
             </div>
@@ -43,15 +43,15 @@ export default function OmPage() {
          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="flex flex-col gap-4">
                 <h3 className="font-display text-2xl">Vision</h3>
-                <p className="text-stone text-sm">At gøre træ til det naturlige førstevalg i skandinavisk byggeri gennem stærke relationer og teknisk ekspertise.</p>
+                <p className="text-stone text-sm">At gøre miljøvenlige byggematerialer til det naturlige førstevalg i skandinavisk byggeri — gennem stærke relationer og teknisk ekspertise.</p>
             </div>
             <div className="flex flex-col gap-4">
                 <h3 className="font-display text-2xl">Mission</h3>
-                <p className="text-stone text-sm">At forbinde de rigtige producenter med de rigtige projekter på det rigtige tidspunkt.</p>
+                <p className="text-stone text-sm">At forbinde producenter af bæredygtige byggematerialer med de rigtige projekter på det rigtige tidspunkt.</p>
             </div>
             <div className="flex flex-col gap-4">
                 <h3 className="font-display text-2xl">Værdier</h3>
-                <p className="text-stone text-sm">Integritet, langsigtede relationer og en passion for bæredygtigt byggeri.</p>
+                <p className="text-stone text-sm">Integritet, langsigtede relationer og en dyb forpligtelse til miljøvenligt og klimabevidst byggeri.</p>
             </div>
          </div>
       </Section>

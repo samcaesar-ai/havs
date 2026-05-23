@@ -9,29 +9,29 @@
     "close": "Close"
   },
   "hero": {
-    "eyebrow": "HAVS — Nordic timber & construction",
-    "headline_line1": "Connecting timber manufacturers",
+    "eyebrow": "HAVS — sustainable Nordic construction",
+    "headline_line1": "Connecting producers of eco-friendly materials",
     "headline_line2": "with those building Scandinavia.",
-    "subhead": "HAVS is a business development practice for the Nordic construction industry. Led by David Hav, working in CLT, glulam, and prefabricated timber systems.",
+    "subhead": "HAVS is a business development practice for the Nordic construction industry. Led by David Hav, working across timber, roofing, cement, and other sustainable building systems.",
     "cta_primary": "Arrange a meeting",
     "cta_secondary": "How we work"
   },
   "triage": {
     "heading": "Who do we work with?",
     "manufacturers_title": "For manufacturers",
-    "manufacturers_body": "We open doors to the architects, contractors, and developers who specify your products. Long-term relationships, real pipelines, not lead lists.",
+    "manufacturers_body": "We open doors to the architects, contractors, and developers who specify your products — whether timber, roofing, cement, or other eco-friendly materials. Long-term relationships, real pipelines.",
     "architects_title": "For architects",
-    "architects_body": "A direct line to manufacturers of CLT, glulam, and timber components — with the technical and commercial context to make specification straightforward.",
+    "architects_body": "A direct line to producers of sustainable building materials — from CLT and glulam to green roofing systems and low-emission concrete — with the technical context to make specification straightforward.",
     "contractors_title": "For contractors & developers",
-    "contractors_body": "Access to the Nordic timber supply chain and the people behind it. Tender support, supplier introductions, project-stage advice."
+    "contractors_body": "Access to the Nordic sustainable building supply chain and the people behind it. Tender support, supplier introductions, and project-stage advice."
   },
   "practice": {
-    "pullquote": "A construction industry built on timber is built on relationships.",
-    "body": "HAVS works in the space between product and project. We introduce timber manufacturers to architects who specify, contractors who build, and developers who commission. The result is fewer cold meetings, more qualified opportunities, and timber products that end up in the right buildings."
+    "pullquote": "A sustainable construction industry is built on relationships.",
+    "body": "HAVS works in the space between product and project. We introduce producers of eco-friendly building materials to architects who specify, contractors who build, and developers who commission. The result is fewer cold meetings, more qualified opportunities, and sustainable materials that end up in the right buildings."
   },
   "partners": {
-    "heading": "Working with the Nordic timber industry.",
-    "body": "HAVS represents Södra, one of Sweden's largest timber manufacturers, alongside a selected network of suppliers across the Nordic region."
+    "heading": "Working with the Nordic construction industry.",
+    "body": "HAVS represents a selected network of sustainable building material producers across the Nordic region — from timber and roofing to cement and façade systems."
   },
   "process": {
     "heading": "How David works",
@@ -46,12 +46,12 @@
   },
   "about_snippet": {
     "heading": "David Hav",
-    "body": "David has spent his career in the Nordic timber and construction industry, building the kind of long-term relationships that move products from catalogue to specification. HAVS is the practice he runs from Denmark, working across Sweden, Denmark, and Norway.",
+    "body": "David has spent his career in the Nordic construction industry, building the kind of long-term relationships that move eco-friendly products from catalogue to specification. HAVS is the practice he runs from Denmark, working across Sweden, Denmark, and Norway.",
     "cta": "More about David"
   },
   "contact_band": {
     "heading": "Start a conversation.",
-    "body": "Most projects begin with a thirty-minute call. There is no template — the call is shaped by what you need.",
+    "body": "Most projects begin with a thirty-minute call. There is no template — whether it is timber, roofing, cement, or something else entirely.",
     "cta_primary": "Arrange a meeting",
     "email": "david@havs.dk"
   },
@@ -73,7 +73,7 @@
     "error_generic": "Something went wrong. Try again or write directly to david@havs.dk."
   },
   "footer": {
-    "tagline": "Nordic timber & construction",
+    "tagline": "Sustainable Nordic construction",
     "email": "david@havs.dk",
     "copyright": "© {year} HAVS. All rights reserved."
   }

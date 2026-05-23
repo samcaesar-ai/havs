@@ -21,17 +21,17 @@ export default function PartnerePage() {
       <Section className="pt-24 pb-12">
         <h1 className="text-display mb-6">{t("partnere")}</h1>
         <p className="text-title text-stone max-w-2xl font-light">
-          Vi repræsenterer de stærkeste led i den nordiske trækæde.
+          Vi repræsenterer producenter af miljøvenlige byggematerialer på tværs af Norden — træ, tag, cement og facadesystemer.
         </p>
       </Section>
       
       <PartnersWall />
 
-      <Section className="bg-blue text-paper">
+      <Section className="bg-forest text-nav-fg">
          <div className="max-w-3xl">
             <h2 className="text-headline mb-8">Vil du være en del af netværket?</h2>
             <p className="text-xl font-light mb-10 opacity-80">
-                Vi leder altid efter innovative producenter og leverandører, der kan bidrage til at transformere byggebranchen med træ.
+                Vi leder altid efter producenter af miljøvenlige byggematerialer, der ønsker at nå de arkitekter, entreprenører og bygherrer, der specificerer bæredygtige løsninger.
             </p>
             <div className="flex">
                 <a href="mailto:david@havs.dk" className="px-8 py-4 bg-orange text-paper hover:bg-orange/90 transition-colors">
