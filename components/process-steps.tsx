@@ -13,7 +13,7 @@ export function ProcessSteps() {
   ];
 
   return (
-    <Section style={{ backgroundColor: "#f2ede4" }}>
+    <Section className="bg-birch/30">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
         <div className="lg:col-span-1">
           <h2 className="text-headline lg:sticky lg:top-32">{t("heading")}</h2>
