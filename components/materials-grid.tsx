@@ -1,17 +1,32 @@
-import { useLocale } from "next-intl";
-import { materials } from "@/content/materials";
+import { useTranslations } from "next-intl";
 import { Section } from "./section";
+import { ScrollReveal } from "./scroll-reveal";
+
+const SEGMENTS = [
+  "clt",
+  "glulam",
+  "facader",
+  "tag",
+  "gulve",
+  "special",
+] as const;
 
 export function MaterialsGrid() {
-  const locale = useLocale() as "da" | "en";
+  const t = useTranslations("segments");
 
   return (
     <Section className="bg-ink text-paper">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-birch/20">
-        {materials.map((material) => (
+      <ScrollReveal>
+        <h2 className="text-headline mb-12">{t("heading")}</h2>
+      </ScrollReveal>
+      <ScrollReveal
+        variant="group"
+        className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/10"
+      >
+        {SEGMENTS.map((key) => (
           <div
-            key={material.id}
-            className="relative overflow-hidden bg-ink flex flex-col justify-end p-8 gap-4 group"
+            key={key}
+            className="relative overflow-hidden bg-ink flex flex-col justify-end p-8 gap-3 group"
             style={{ aspectRatio: "4/3" }}
           >
             <div
@@ -19,14 +34,14 @@ export function MaterialsGrid() {
               aria-hidden="true"
             />
             <h3 className="relative font-display text-xl tracking-tight text-orange z-10">
-              {material[locale].title}
+              {t(`${key}_title`)}
             </h3>
-            <p className="relative text-sm text-stone leading-relaxed z-10">
-              {material[locale].description}
+            <p className="relative text-sm text-paper/60 leading-relaxed z-10">
+              {t(`${key}_body`)}
             </p>
           </div>
         ))}
-      </div>
+      </ScrollReveal>
     </Section>
   );
 }

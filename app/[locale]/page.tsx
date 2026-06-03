@@ -2,9 +2,11 @@ import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { Hero } from "@/components/hero";
+import { WhatWeDo } from "@/components/what-we-do";
 import { AudienceTriage } from "@/components/audience-triage";
-import { ProcessSteps } from "@/components/process-steps";
 import { MaterialsGrid } from "@/components/materials-grid";
+import { WhyHAVS } from "@/components/why-havs";
+import { ProcessSteps } from "@/components/process-steps";
 import { PartnersWall } from "@/components/partners-wall";
 import { AboutSnippet } from "@/components/about-snippet";
 import { ContactBand } from "@/components/contact-band";
@@ -21,9 +23,11 @@ export default function HomePage() {
   return (
     <main>
       <Hero />
+      <WhatWeDo />
       <AudienceTriage />
-      <ProcessSteps />
       <MaterialsGrid />
+      <WhyHAVS />
+      <ProcessSteps />
       <PartnersWall />
       <AboutSnippet />
       <ContactBand />

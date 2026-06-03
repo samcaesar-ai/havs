@@ -9,50 +9,77 @@
     "close": "Luk"
   },
   "hero": {
-    "eyebrow": "HAVS — bæredygtigt nordisk byggeri",
-    "headline_line1": "Vi forbinder producenter af miljøvenlige materialer",
-    "headline_line2": "med dem der bygger Skandinavien.",
-    "subhead": "HAVS er en forretningsudviklingspraksis for den nordiske byggebranche. Drevet af David Hav, med fokus på træ, tagløsninger, cement og andre miljøvenlige byggesystemer.",
-    "cta_primary": "Book et møde",
-    "cta_secondary": "Sådan arbejder vi"
+    "eyebrow": "HAVS — forbindelser i byggebranchen",
+    "headline_line1": "Vi forbinder producenter",
+    "headline_line2": "med de rigtige byggeprojekter.",
+    "subhead": "HAVS hjælper producenter indenfor bl.a. CLT, glulam, facader, tag og gulve med adgang til relevante entreprenører, tilbudsmateriale og beslutningstagere i byggebranchen.",
+    "cta_primary": "Book en samtale",
+    "cta_secondary": "Se hvordan vi arbejder"
   },
-  "triage": {
-    "heading": "Hvem arbejder vi med?",
-    "manufacturers_title": "Til producenter",
-    "manufacturers_body": "Vi åbner dørene til de arkitekter, entreprenører og bygherrer, der specificerer jeres produkter — uanset om det er træ, tag, cement eller andre miljøvenlige materialer. Langvarige relationer, reelle pipelines.",
-    "architects_title": "Til arkitekter",
-    "architects_body": "En direkte linje til producenter af bæredygtige byggematerialer — fra CLT og limtræ til grønne tagløsninger og lavemissionsbeton — med den tekniske kontekst, der gør specifikation enkel.",
-    "contractors_title": "Til entreprenører & bygherrer",
-    "contractors_body": "Adgang til den nordiske forsyningskæde for miljøvenlige byggematerialer og menneskene bag den. Udbudsstøtte, leverandørintroduktioner og rådgivning gennem projektfaserne."
+  "what_we_do": {
+    "heading": "Adgang til projekter, relationer og beslutningstagere",
+    "body": "HAVS arbejder i krydsfeltet mellem producenter, entreprenører og arkitekter. Vi identificerer relevante byggeprojekter, indhenter tilbudsmateriale og skaber forbindelser mellem de rigtige aktører."
   },
-  "practice": {
-    "pullquote": "Et bæredygtigt byggeri bygges på relationer.",
-    "body": "HAVS arbejder i feltet mellem produkt og projekt. Vi introducerer producenter af miljøvenlige byggematerialer til de arkitekter, der specificerer, de entreprenører, der bygger, og de bygherrer, der bestiller. Resultatet: færre kolde møder, flere kvalificerede muligheder — og bæredygtige materialer, der ender i de rigtige bygninger."
+  "services": {
+    "heading": "Hvad vi gør",
+    "projektidentifikation_title": "Projektidentifikation",
+    "projektidentifikation_body": "Vi er i løbende dialog med entreprenører omkring kommende og aktive byggeprojekter.",
+    "tilbudsmateriale_title": "Tilbudsmateriale",
+    "tilbudsmateriale_body": "Vi indhenter og videreformidler relevant projekt- og tilbudsmateriale til producenter.",
+    "introduktioner_title": "Introduktioner",
+    "introduktioner_body": "Vi skaber kontakt mellem producenter, entreprenører, arkitekter og andre relevante beslutningstagere.",
+    "moedebooking_title": "Mødebooking",
+    "moedebooking_body": "Vi arrangerer møder mellem producenter og arkitekter når der er et relevant match.",
+    "markedsindsigt_title": "Markedsindsigt",
+    "markedsindsigt_body": "HAVS følger udviklingen i markedet og hjælper producenter med adgang til relevante muligheder."
   },
-  "partners": {
-    "heading": "I samarbejde med den nordiske byggebranche.",
-    "body": "HAVS repræsenterer et udvalgt netværk af producenter af miljøvenlige byggematerialer på tværs af Norden — fra træ og tag til cement og facadesystemer."
+  "segments": {
+    "heading": "Produktområder",
+    "clt_title": "CLT",
+    "clt_body": "Krydslamineret træ til bærende konstruktioner og dækelementer.",
+    "glulam_title": "Glulam",
+    "glulam_body": "Limtræ til spær, søjler og synlige konstruktioner.",
+    "facader_title": "Facader",
+    "facader_body": "Træbaserede facadesystemer og beklædninger.",
+    "tag_title": "Tagløsninger",
+    "tag_body": "Præfabrikerede og traditionelle træbaserede tagkonstruktioner.",
+    "gulve_title": "Gulve",
+    "gulve_body": "Trægulve og gulvsystemer til erhverv og bolig.",
+    "special_title": "Specialprodukter",
+    "special_body": "Træbaserede byggematerialer og specialprodukter til byggebranchen."
+  },
+  "why_havs": {
+    "heading": "Hvorfor HAVS",
+    "reason1": "Adgang til relevante projekter",
+    "reason2": "Hurtigere kontakt til beslutningstagere",
+    "reason3": "Stærke relationer i byggebranchen",
+    "reason4": "Fokus på relevante muligheder fremfor kolde leads",
+    "reason5": "Effektiv forbindelse mellem markedets aktører"
   },
   "process": {
-    "heading": "Sådan arbejder David",
-    "step1_title": "Introduktion",
-    "step1_body": "En første samtale for at forstå dine produkter, projekter eller specifikationsbehov.",
-    "step2_title": "Netværk",
-    "step2_body": "Målrettede introduktioner til arkitekter, entreprenører eller producenter i den rette kontekst.",
-    "step3_title": "Møder",
-    "step3_body": "Kuraterede møder med beslutningstagere — specifikatorer, projektledere, indkøb.",
-    "step4_title": "Pipeline",
-    "step4_body": "Fortsat involvering gennem udbud, specifikation og levering."
+    "heading": "Arbejdsproces",
+    "step1_title": "Afklaring",
+    "step1_body": "Vi afklarer hvilke projekter, segmenter og aktører der er relevante for producenten.",
+    "step2_title": "Identifikation",
+    "step2_body": "HAVS identificerer relevante projekter og er i dialog med entreprenører og markedets aktører.",
+    "step3_title": "Videreformidling",
+    "step3_body": "Relevant tilbudsmateriale og introduktioner videreformidles til producenten.",
+    "step4_title": "Mødebooking",
+    "step4_body": "Ved behov arrangeres møder med arkitekter, entreprenører eller andre beslutningstagere."
+  },
+  "partners": {
+    "heading": "I samarbejde med den nordiske træindustri.",
+    "body": "HAVS repræsenterer Södra, en af Sveriges største træproducenter, sammen med et udvalgt netværk af leverandører på tværs af Norden."
   },
   "about_snippet": {
-    "heading": "David Hav",
-    "body": "David har brugt sin karriere i den nordiske byggebranche på at opbygge de langvarige relationer, der flytter miljøvenlige produkter fra katalog til specifikation. HAVS er den praksis, han driver fra Danmark, med arbejde på tværs af Sverige, Danmark og Norge.",
-    "cta": "Mere om David"
+    "heading": "Relationer skaber projekter",
+    "body": "HAVS er etableret med fokus på at skabe stærkere forbindelser mellem producenter og byggebranchens beslutningstagere. Vi arbejder relationelt, kommercielt og markedsnært med fokus på adgang, timing og relevante projekter.",
+    "cta": "Mere om HAVS"
   },
   "contact_band": {
-    "heading": "Lad os tage en samtale.",
-    "body": "De fleste projekter starter med et opkald på en halv time. Der er ingen skabelon — uanset om det handler om træ, tag, cement eller en helt anden løsning.",
-    "cta_primary": "Book et møde",
+    "heading": "Lad os tage en samtale",
+    "body": "Kontakt HAVS hvis I ønsker adgang til relevante projekter, entreprenører og relationer i byggebranchen.",
+    "cta_primary": "Book en samtale",
     "email": "david@havs.dk"
   },
   "contact_page": {
@@ -73,7 +100,7 @@
     "error_generic": "Der skete en fejl. Prøv igen eller skriv direkte til david@havs.dk."
   },
   "footer": {
-    "tagline": "Bæredygtigt nordisk byggeri",
+    "tagline": "Forbindelser i byggebranchen",
     "email": "david@havs.dk",
     "copyright": "© {year} HAVS. Alle rettigheder forbeholdes."
   }
