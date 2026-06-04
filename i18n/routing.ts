@@ -7,7 +7,7 @@ export const routing = defineRouting({
   localeDetection: false,
   pathnames: {
     "/": "/",
-    "/praksis": "/praksis",
+    "/ydelser": "/ydelser",
     "/materialer": "/materialer",
     "/partnere": "/partnere",
     "/om": "/om",

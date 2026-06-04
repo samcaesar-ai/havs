@@ -25,8 +25,12 @@ export default function OmPage() {
                     {t("body")}
                 </p>
                 <div className="prose prose-stone">
+                    <h2 className="font-display text-xl mb-4">Hvem er David Hav?</h2>
+                    <p className="text-stone mb-4">
+                        David Hav har gennem flere år arbejdet med opsøgende dialog i byggebranchen — med særligt fokus på CLT, limtræ og præfabrikerede byggesystemer. Han kender markedet indefra og forstår, hvad der skal til for at bringe et produkt i spil på det rigtige tidspunkt i et projekt.
+                    </p>
                     <p className="text-stone">
-                        David har brugt sin karriere på at bygge bro mellem de mennesker, der designer vores byer, og de mennesker, der leverer de materialer, der opfører dem. Med en dyb forståelse for både det arkitektoniske udtryk og de kommercielle realiteter i byggeriet er HAVS skabt for at accelerere brugen af miljøvenlige byggematerialer i Skandinavien.
+                        HAVS er bygget på de relationer og den markedsviden David har opbygget: evnen til at identificere relevante projekter, skaffe adgang til tilbudsmateriale og skabe kontakt til de entreprenører og arkitekter, der træffer beslutningerne.
                     </p>
                 </div>
             </div>

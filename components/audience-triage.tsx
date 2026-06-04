@@ -7,7 +7,6 @@ const SERVICES = [
   "tilbudsmateriale",
   "introduktioner",
   "moedebooking",
-  "markedsindsigt",
 ] as const;
 
 export function AudienceTriage() {

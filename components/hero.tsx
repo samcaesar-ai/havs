@@ -31,7 +31,7 @@ export function Hero() {
             <Link href="/kontakt" className="btn-primary">
               {t("cta_primary")}
             </Link>
-            <Link href="/praksis" className="btn-outline">
+            <Link href="/ydelser" className="btn-outline">
               {t("cta_secondary")}
             </Link>
           </div>

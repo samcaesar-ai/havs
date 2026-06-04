@@ -38,8 +38,8 @@ export async function generateMetadata({
       template: "%s | HAVS",
     },
     description: isEnglish
-      ? "HAVS is a business development practice for the Nordic construction industry. Led by David Hav, working in CLT, glulam, and prefabricated timber systems."
-      : "HAVS er en forretningsudviklingspraksis for den nordiske byggebranche. Drevet af David Hav, med fokus på CLT, limtræ og præfabrikerede træsystemer.",
+      ? "HAVS creates access to the right construction projects. Led by David Hav, working with manufacturers in CLT, glulam, facades, roofing and windows."
+      : "HAVS skaber adgang til de rigtige byggeprojekter. Drevet af David Hav, med fokus på CLT, limtræ, facader, tag og vinduer.",
     metadataBase: new URL(BASE_URL),
     alternates: {
       canonical: `${BASE_URL}${locale === routing.defaultLocale ? "" : `/${locale}`}`,

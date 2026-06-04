@@ -1,6 +1,6 @@
 {
   "nav": {
-    "praksis": "Praksis",
+    "ydelser": "Ydelser",
     "materialer": "Materialer",
     "partnere": "Partnere",
     "om": "Om",
@@ -10,8 +10,8 @@
   },
   "hero": {
     "eyebrow": "HAVS — forbindelser i byggebranchen",
-    "headline_line1": "Vi forbinder producenter",
-    "headline_line2": "med de rigtige byggeprojekter.",
+    "headline_line1": "Vi skaber adgang til",
+    "headline_line2": "de rigtige byggeprojekter.",
     "subhead": "HAVS hjælper producenter indenfor bl.a. CLT, glulam, facader, tag og gulve med adgang til relevante entreprenører, tilbudsmateriale og beslutningstagere i byggebranchen.",
     "cta_primary": "Book en samtale",
     "cta_secondary": "Se hvordan vi arbejder"
@@ -30,8 +30,8 @@
     "introduktioner_body": "Vi skaber kontakt mellem producenter, entreprenører, arkitekter og andre relevante beslutningstagere.",
     "moedebooking_title": "Mødebooking",
     "moedebooking_body": "Vi arrangerer møder mellem producenter og arkitekter når der er et relevant match.",
-    "markedsindsigt_title": "Markedsindsigt",
-    "markedsindsigt_body": "HAVS følger udviklingen i markedet og hjælper producenter med adgang til relevante muligheder."
+    "projektopfoelgning_title": "Projektopfølgning",
+    "projektopfoelgning_body": "HAVS holder løbende øje med projektudviklingen og sikrer, at producenten er relevant med på banen."
   },
   "segments": {
     "heading": "Produktområder",
@@ -45,6 +45,8 @@
     "tag_body": "Præfabrikerede og traditionelle træbaserede tagkonstruktioner.",
     "gulve_title": "Gulve",
     "gulve_body": "Trægulve og gulvsystemer til erhverv og bolig.",
+    "vinduer_title": "Vinduer",
+    "vinduer_body": "Vinduesløsninger til erhvervsbyggeri, bolig og renoveringsprojekter.",
     "special_title": "Specialprodukter",
     "special_body": "Træbaserede byggematerialer og specialprodukter til byggebranchen."
   },
@@ -69,7 +71,7 @@
   },
   "partners": {
     "heading": "I samarbejde med den nordiske træindustri.",
-    "body": "HAVS repræsenterer Södra, en af Sveriges største træproducenter, sammen med et udvalgt netværk af leverandører på tværs af Norden."
+    "body": "HAVS samarbejder med aktører i den nordiske byggebranche, herunder producenter af træbaserede og andre bæredygtige byggematerialer."
   },
   "about_snippet": {
     "heading": "Relationer skaber projekter",

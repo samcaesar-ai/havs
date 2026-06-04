@@ -1,6 +1,6 @@
 {
   "nav": {
-    "praksis": "Practice",
+    "ydelser": "Services",
     "materialer": "Materials",
     "partnere": "Partners",
     "om": "About",
@@ -10,8 +10,8 @@
   },
   "hero": {
     "eyebrow": "HAVS — connections in construction",
-    "headline_line1": "Connecting manufacturers",
-    "headline_line2": "with the right building projects.",
+    "headline_line1": "Creating access to",
+    "headline_line2": "the right building projects.",
     "subhead": "HAVS helps manufacturers in CLT, glulam, facades, roofing and flooring gain access to relevant contractors, tender material and decision-makers in the construction industry.",
     "cta_primary": "Arrange a meeting",
     "cta_secondary": "How we work"
@@ -30,8 +30,8 @@
     "introduktioner_body": "We create connections between manufacturers, contractors, architects and other relevant decision-makers.",
     "moedebooking_title": "Meeting booking",
     "moedebooking_body": "We arrange meetings between manufacturers and architects when there is a relevant match.",
-    "markedsindsigt_title": "Market insight",
-    "markedsindsigt_body": "HAVS follows market developments and helps manufacturers access relevant opportunities."
+    "projektopfoelgning_title": "Project follow-up",
+    "projektopfoelgning_body": "HAVS tracks ongoing project developments to ensure manufacturers stay relevant throughout the process."
   },
   "segments": {
     "heading": "Product areas",
@@ -45,6 +45,8 @@
     "tag_body": "Prefabricated and traditional timber-based roof structures.",
     "gulve_title": "Flooring",
     "gulve_body": "Timber floors and flooring systems for commercial and residential use.",
+    "vinduer_title": "Windows",
+    "vinduer_body": "Window solutions for commercial construction, residential and renovation projects.",
     "special_title": "Special products",
     "special_body": "Timber-based building materials and specialist products for the construction industry."
   },
@@ -69,7 +71,7 @@
   },
   "partners": {
     "heading": "Working with the Nordic timber industry.",
-    "body": "HAVS represents Södra, one of Sweden's largest timber manufacturers, alongside a selected network of suppliers across the Nordic region."
+    "body": "HAVS works with partners across the Nordic construction industry, including manufacturers of timber-based and other sustainable building materials."
   },
   "about_snippet": {
     "heading": "Relationships build projects",

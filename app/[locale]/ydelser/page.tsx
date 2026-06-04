@@ -9,10 +9,10 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "nav" });
-  return { title: t("praksis") };
+  return { title: t("ydelser") };
 }
 
-export default function PraksisPage() {
+export default function YdelserPage() {
   const t = useTranslations("practice");
 
   return (

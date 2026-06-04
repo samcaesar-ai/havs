@@ -6,7 +6,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { LanguageToggle } from "@/components/language-toggle";
 
 const NAV_LINKS = [
-  { href: "/praksis", key: "praksis" },
+  { href: "/ydelser", key: "ydelser" },
   { href: "/materialer", key: "materialer" },
   { href: "/partnere", key: "partnere" },
   { href: "/om", key: "om" },
