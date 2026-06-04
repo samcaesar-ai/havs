@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Section } from "@/components/section";
 import { ContactBand } from "@/components/contact-band";
 
@@ -34,11 +35,15 @@ export default function OmPage() {
                     </p>
                 </div>
             </div>
-            <div className="aspect-[4/5] bg-birch/30 relative overflow-hidden">
-                {/* Image placeholder */}
-                <div className="absolute inset-0 flex items-center justify-center text-birch italic">
-                    Portrait of David Hav
-                </div>
+            <div className="aspect-[4/5] relative overflow-hidden">
+                <Image
+                    src="/images/david-hav.webp"
+                    alt="David Hav"
+                    fill
+                    className="object-cover object-top"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    priority
+                />
             </div>
         </div>
       </Section>
