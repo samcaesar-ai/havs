@@ -8,6 +8,7 @@ const SEGMENTS = [
   "facader",
   "tag",
   "gulve",
+  "vinduer",
   "special",
 ] as const;
 
