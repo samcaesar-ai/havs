@@ -20,6 +20,7 @@ export function ContactForm() {
           id="name"
           name="name"
           required
+          maxLength={100}
           autoComplete="name"
           className="bg-transparent border-b border-birch px-0 py-3 outline-none focus:border-ink transition-colors placeholder:text-stone/50"
         />
@@ -32,6 +33,7 @@ export function ContactForm() {
           id="email"
           name="email"
           required
+          maxLength={254}
           autoComplete="email"
           className="bg-transparent border-b border-birch px-0 py-3 outline-none focus:border-ink transition-colors placeholder:text-stone/50"
         />
@@ -58,6 +60,8 @@ export function ContactForm() {
           name="message"
           rows={5}
           required
+          minLength={10}
+          maxLength={5000}
           className="bg-transparent border-b border-birch px-0 py-3 outline-none focus:border-ink transition-colors resize-none placeholder:text-stone/50"
         />
       </div>
